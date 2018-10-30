@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: __wiz
+Bundle-SymbolicName: __wiz;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.resources,
+  org.eclipse.ui,
+  org.eclipse.ui.ide,
+  org.eclipse.core.runtime
+Automatic-Module-Name: __wiz
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.cdt.core
